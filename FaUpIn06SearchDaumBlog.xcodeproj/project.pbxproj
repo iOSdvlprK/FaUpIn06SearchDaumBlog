@@ -7,22 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2416BC15E89A950F745F7E3C /* Pods_FaUpIn06SearchDaumBlog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DCB7007094283AD0011E44 /* Pods_FaUpIn06SearchDaumBlog.framework */; };
 		D800FC7A2C08C153000A266D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D800FC792C08C153000A266D /* AppDelegate.swift */; };
 		D800FC7C2C08C153000A266D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D800FC7B2C08C153000A266D /* SceneDelegate.swift */; };
 		D800FC832C08C157000A266D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D800FC822C08C157000A266D /* Assets.xcassets */; };
 		D800FC862C08C157000A266D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D800FC852C08C157000A266D /* Base */; };
-		D800FC902C08C514000A266D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D800FC8F2C08C514000A266D /* Kingfisher */; };
-		D800FC932C08C5C4000A266D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D800FC922C08C5C4000A266D /* SnapKit */; };
-		D800FC952C08C5C4000A266D /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D800FC942C08C5C4000A266D /* SnapKit-Dynamic */; };
+		D86D15B72C09FCBA00310CB1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86D15B62C09FCBA00310CB1 /* MainViewController.swift */; };
+		D8D0EA792C0A045E001CD9EC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0EA782C0A045E001CD9EC /* SearchBar.swift */; };
+		D8D0EA7B2C0A0E55001CD9EC /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0EA7A2C0A0E55001CD9EC /* FilterView.swift */; };
+		D8D0EA7D2C0A11CE001CD9EC /* BlogList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0EA7C2C0A11CE001CD9EC /* BlogList.swift */; };
+		D8D0EA7F2C0A11F8001CD9EC /* BlogListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0EA7E2C0A11F8001CD9EC /* BlogListCell.swift */; };
+		D8D0EA812C0A120E001CD9EC /* BlogListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0EA802C0A120E001CD9EC /* BlogListCellData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8AD140464E980947349CF80B /* Pods-FaUpIn06SearchDaumBlog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaUpIn06SearchDaumBlog.debug.xcconfig"; path = "Target Support Files/Pods-FaUpIn06SearchDaumBlog/Pods-FaUpIn06SearchDaumBlog.debug.xcconfig"; sourceTree = "<group>"; };
+		A9DCB7007094283AD0011E44 /* Pods_FaUpIn06SearchDaumBlog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaUpIn06SearchDaumBlog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D800FC762C08C153000A266D /* FaUpIn06SearchDaumBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaUpIn06SearchDaumBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D800FC792C08C153000A266D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D800FC7B2C08C153000A266D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D800FC822C08C157000A266D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D800FC852C08C157000A266D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D800FC872C08C157000A266D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D86D15B62C09FCBA00310CB1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D8D0EA782C0A045E001CD9EC /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		D8D0EA7A2C0A0E55001CD9EC /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		D8D0EA7C2C0A11CE001CD9EC /* BlogList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogList.swift; sourceTree = "<group>"; };
+		D8D0EA7E2C0A11F8001CD9EC /* BlogListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListCell.swift; sourceTree = "<group>"; };
+		D8D0EA802C0A120E001CD9EC /* BlogListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListCellData.swift; sourceTree = "<group>"; };
+		EA3B7745442363C4225E09DC /* Pods-FaUpIn06SearchDaumBlog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaUpIn06SearchDaumBlog.release.xcconfig"; path = "Target Support Files/Pods-FaUpIn06SearchDaumBlog/Pods-FaUpIn06SearchDaumBlog.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,9 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D800FC902C08C514000A266D /* Kingfisher in Frameworks */,
-				D800FC932C08C5C4000A266D /* SnapKit in Frameworks */,
-				D800FC952C08C5C4000A266D /* SnapKit-Dynamic in Frameworks */,
+				2416BC15E89A950F745F7E3C /* Pods_FaUpIn06SearchDaumBlog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				D800FC782C08C153000A266D /* FaUpIn06SearchDaumBlog */,
 				D800FC772C08C153000A266D /* Products */,
+				FCF21E79E8D29FA036932429 /* Pods */,
+				DECA107999AC4121A612EBD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +73,50 @@
 			children = (
 				D800FC792C08C153000A266D /* AppDelegate.swift */,
 				D800FC7B2C08C153000A266D /* SceneDelegate.swift */,
+				D8D0EA832C0A1246001CD9EC /* Entities */,
+				D8D0EA822C0A1234001CD9EC /* Presentation */,
 				D800FC822C08C157000A266D /* Assets.xcassets */,
 				D800FC842C08C157000A266D /* LaunchScreen.storyboard */,
 				D800FC872C08C157000A266D /* Info.plist */,
 			);
 			path = FaUpIn06SearchDaumBlog;
+			sourceTree = "<group>";
+		};
+		D8D0EA822C0A1234001CD9EC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				D86D15B62C09FCBA00310CB1 /* MainViewController.swift */,
+				D8D0EA782C0A045E001CD9EC /* SearchBar.swift */,
+				D8D0EA7A2C0A0E55001CD9EC /* FilterView.swift */,
+				D8D0EA7C2C0A11CE001CD9EC /* BlogList.swift */,
+				D8D0EA7E2C0A11F8001CD9EC /* BlogListCell.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		D8D0EA832C0A1246001CD9EC /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				D8D0EA802C0A120E001CD9EC /* BlogListCellData.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		DECA107999AC4121A612EBD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9DCB7007094283AD0011E44 /* Pods_FaUpIn06SearchDaumBlog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCF21E79E8D29FA036932429 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AD140464E980947349CF80B /* Pods-FaUpIn06SearchDaumBlog.debug.xcconfig */,
+				EA3B7745442363C4225E09DC /* Pods-FaUpIn06SearchDaumBlog.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,20 +126,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D800FC8A2C08C157000A266D /* Build configuration list for PBXNativeTarget "FaUpIn06SearchDaumBlog" */;
 			buildPhases = (
+				60CBBB89624BD23D468D7F01 /* [CP] Check Pods Manifest.lock */,
 				D800FC722C08C153000A266D /* Sources */,
 				D800FC732C08C153000A266D /* Frameworks */,
 				D800FC742C08C153000A266D /* Resources */,
+				91D6834C3840385C1EAF1383 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FaUpIn06SearchDaumBlog;
-			packageProductDependencies = (
-				D800FC8F2C08C514000A266D /* Kingfisher */,
-				D800FC922C08C5C4000A266D /* SnapKit */,
-				D800FC942C08C5C4000A266D /* SnapKit-Dynamic */,
-			);
 			productName = FaUpIn06SearchDaumBlog;
 			productReference = D800FC762C08C153000A266D /* FaUpIn06SearchDaumBlog.app */;
 			productType = "com.apple.product-type.application";
@@ -142,12 +191,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		60CBBB89624BD23D468D7F01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaUpIn06SearchDaumBlog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D6834C3840385C1EAF1383 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaUpIn06SearchDaumBlog/Pods-FaUpIn06SearchDaumBlog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaUpIn06SearchDaumBlog/Pods-FaUpIn06SearchDaumBlog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FaUpIn06SearchDaumBlog/Pods-FaUpIn06SearchDaumBlog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D800FC722C08C153000A266D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86D15B72C09FCBA00310CB1 /* MainViewController.swift in Sources */,
+				D8D0EA7F2C0A11F8001CD9EC /* BlogListCell.swift in Sources */,
+				D8D0EA7D2C0A11CE001CD9EC /* BlogList.swift in Sources */,
+				D8D0EA812C0A120E001CD9EC /* BlogListCellData.swift in Sources */,
+				D8D0EA792C0A045E001CD9EC /* SearchBar.swift in Sources */,
 				D800FC7A2C08C153000A266D /* AppDelegate.swift in Sources */,
+				D8D0EA7B2C0A0E55001CD9EC /* FilterView.swift in Sources */,
 				D800FC7C2C08C153000A266D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +384,7 @@
 		};
 		D800FC8B2C08C157000A266D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AD140464E980947349CF80B /* Pods-FaUpIn06SearchDaumBlog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +412,7 @@
 		};
 		D800FC8C2C08C157000A266D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3B7745442363C4225E09DC /* Pods-FaUpIn06SearchDaumBlog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -388,24 +487,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D800FC8F2C08C514000A266D /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D800FC8E2C08C514000A266D /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		D800FC922C08C5C4000A266D /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D800FC912C08C5C4000A266D /* XCRemoteSwiftPackageReference "snapkit" */;
-			productName = SnapKit;
-		};
-		D800FC942C08C5C4000A266D /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D800FC912C08C5C4000A266D /* XCRemoteSwiftPackageReference "snapkit" */;
-			productName = "SnapKit-Dynamic";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D800FC6E2C08C153000A266D /* Project object */;
 }
