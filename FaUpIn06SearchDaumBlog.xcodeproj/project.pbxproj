@@ -12,6 +12,9 @@
 		D800FC7C2C08C153000A266D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D800FC7B2C08C153000A266D /* SceneDelegate.swift */; };
 		D800FC832C08C157000A266D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D800FC822C08C157000A266D /* Assets.xcassets */; };
 		D800FC862C08C157000A266D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D800FC852C08C157000A266D /* Base */; };
+		D807C25A2C0CADC000D7004A /* DKBlog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807C2592C0CADC000D7004A /* DKBlog.swift */; };
+		D807C25D2C0CB46F00D7004A /* SearchBlogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807C25C2C0CB46F00D7004A /* SearchBlogAPI.swift */; };
+		D807C25F2C0CB5DA00D7004A /* SearchBlogNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D807C25E2C0CB5DA00D7004A /* SearchBlogNetwork.swift */; };
 		D80E9A072C0B53A3000B2177 /* AlertActionConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E9A062C0B53A3000B2177 /* AlertActionConvertible.swift */; };
 		D86D15B72C09FCBA00310CB1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86D15B62C09FCBA00310CB1 /* MainViewController.swift */; };
 		D8D0EA792C0A045E001CD9EC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0EA782C0A045E001CD9EC /* SearchBar.swift */; };
@@ -30,6 +33,9 @@
 		D800FC822C08C157000A266D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D800FC852C08C157000A266D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D800FC872C08C157000A266D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D807C2592C0CADC000D7004A /* DKBlog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKBlog.swift; sourceTree = "<group>"; };
+		D807C25C2C0CB46F00D7004A /* SearchBlogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBlogAPI.swift; sourceTree = "<group>"; };
+		D807C25E2C0CB5DA00D7004A /* SearchBlogNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBlogNetwork.swift; sourceTree = "<group>"; };
 		D80E9A062C0B53A3000B2177 /* AlertActionConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertActionConvertible.swift; sourceTree = "<group>"; };
 		D86D15B62C09FCBA00310CB1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D8D0EA782C0A045E001CD9EC /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
@@ -76,12 +82,22 @@
 				D800FC792C08C153000A266D /* AppDelegate.swift */,
 				D800FC7B2C08C153000A266D /* SceneDelegate.swift */,
 				D8D0EA832C0A1246001CD9EC /* Entities */,
+				D807C25B2C0CB43E00D7004A /* Network */,
 				D8D0EA822C0A1234001CD9EC /* Presentation */,
 				D800FC822C08C157000A266D /* Assets.xcassets */,
 				D800FC842C08C157000A266D /* LaunchScreen.storyboard */,
 				D800FC872C08C157000A266D /* Info.plist */,
 			);
 			path = FaUpIn06SearchDaumBlog;
+			sourceTree = "<group>";
+		};
+		D807C25B2C0CB43E00D7004A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D807C25C2C0CB46F00D7004A /* SearchBlogAPI.swift */,
+				D807C25E2C0CB5DA00D7004A /* SearchBlogNetwork.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		D80E9A012C0B4FC6000B2177 /* SubComponents */ = {
@@ -141,6 +157,7 @@
 			children = (
 				D8D0EA802C0A120E001CD9EC /* BlogListCellData.swift */,
 				D80E9A062C0B53A3000B2177 /* AlertActionConvertible.swift */,
+				D807C2592C0CADC000D7004A /* DKBlog.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -283,12 +300,15 @@
 			files = (
 				D86D15B72C09FCBA00310CB1 /* MainViewController.swift in Sources */,
 				D8D0EA7F2C0A11F8001CD9EC /* BlogListCell.swift in Sources */,
+				D807C25A2C0CADC000D7004A /* DKBlog.swift in Sources */,
 				D8D0EA7D2C0A11CE001CD9EC /* BlogList.swift in Sources */,
+				D807C25D2C0CB46F00D7004A /* SearchBlogAPI.swift in Sources */,
 				D8D0EA812C0A120E001CD9EC /* BlogListCellData.swift in Sources */,
 				D8D0EA792C0A045E001CD9EC /* SearchBar.swift in Sources */,
 				D800FC7A2C08C153000A266D /* AppDelegate.swift in Sources */,
 				D8D0EA7B2C0A0E55001CD9EC /* FilterView.swift in Sources */,
 				D800FC7C2C08C153000A266D /* SceneDelegate.swift in Sources */,
+				D807C25F2C0CB5DA00D7004A /* SearchBlogNetwork.swift in Sources */,
 				D80E9A072C0B53A3000B2177 /* AlertActionConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
